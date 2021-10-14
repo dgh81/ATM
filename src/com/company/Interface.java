@@ -64,9 +64,7 @@ public class Interface {
                     i = 5;
                     sletBruger(bruger);
                 } else if ("nej".equals(command7)) {
-
-                    System.out.println("Jeg registrerede at du skrev NEJ!");
-
+                    // System.out.println("Jeg registrerede at du skrev NEJ!");
                     i = 5;
                     interface2(bruger);
                 } else {
@@ -76,24 +74,27 @@ public class Interface {
             }
         }
         //save and close
-        else if ("afslut".equals(command)) {
-            System.out.println("er du sikker på vil afslutte\n ja eller nej");
 
-            //mangler link to log in
-            // command eller command?
-            String command9 = scanInter.nextLine();
-            if ("ja".equals(command9)) {
-                System.out.println("Du logger nu af.");
-                main(null);
-            } else if("nej".equals(command9)) {
-                interface2(bruger);
+        else if ("afslut".equals(command)) {
+            int i = 0;
+            while (i < 5) {
+                System.out.println("er du sikker på vil afslutte\n ja eller nej");
+                String command9 = scanInter.nextLine();
+                if ("ja".equals(command9)) {
+                    i = 5;
+                    System.out.println("Du logger nu af.");
+                    main(null);
+                } else if ("nej".equals(command9)) {
+                    i = 5;
+                    interface2(bruger);
+                } else {
+                    i = 0;
+                    System.out.println("Kommandoen " + command + " findes ikke!");
+                    interface2(bruger);
+                }
             }
-        } else {
-            System.out.println("Kommandoen " + command + " findes ikke!");
-            interface2(bruger);
         }
     }
-
 }
 /*
          1         2         3         4         6

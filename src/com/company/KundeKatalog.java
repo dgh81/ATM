@@ -4,7 +4,6 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 public class KundeKatalog extends Bruger {
     public KundeKatalog() {}
-
     public static ArrayList<Bruger> listFilesForFolder(final File folder) throws FileNotFoundException {
         int i = 0;
         // Opret array af alle bruger-objekter udfra bruger-filer:
