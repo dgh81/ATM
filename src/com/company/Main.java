@@ -1,3 +1,4 @@
+// TEST
 // Ønskeliste:
 // 1. Slette (og oprette brugere) = OK
 // 2. Login og logout = OK
