@@ -12,6 +12,7 @@ public class Bruger {
     int kontonummer;
 
 
+    // Constructor
     public Bruger() {}
 
     public Bruger(String brugernavn, int saldo, int pinkode, int kontonummer) {
