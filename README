@@ -38,6 +38,7 @@ Her er de funktioner vi har brugt i denne app.
 •	Scanner
 • hasNextInt
 • Bruge Scanner til at læse filer
+• Brugt FileWriter til at skrive til filer
 •	While loops med Labels
 • Continue with labels
 •   For each loops
