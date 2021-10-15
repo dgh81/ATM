@@ -1,13 +1,13 @@
-#Dat Banken
-##Readme:
+# Dat Banken
+## Readme:
 Motivation
 
-##Hvorfor dette program?
+## Hvorfor dette program?
 Denne opgave er lavet til et skoleprojekt.
 Da andre i klassen valgte at lave spil, besluttede vi hurtigt at gå i en anden retning og lave en bankautomat.
 (Undgå at bruge tid på kreative historier)
 
-##Hvad gør den?
+## Hvad gør den?
 Denne app virker som en udvidet bankautomat.
 
 Der er lavet flere brugere med hver deres:
@@ -25,7 +25,7 @@ Man kan gøre følgende:
 6.	Lave ny bruger. (😉)
 7.	Slette bruger.
 
-##Hvad har du lært?
+## Hvad har du lært?
 Her er de funktioner vi har brugt i denne app.
 •	Klasser
 • Bruger
@@ -47,4 +47,4 @@ Her er de funktioner vi har brugt i denne app.
 •	Formatspecifier
 •	Exeptions
 
-##Hvorfor udskiller den sig fra andre?
+## Hvorfor udskiller den sig fra andre?
